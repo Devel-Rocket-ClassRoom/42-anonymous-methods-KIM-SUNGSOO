@@ -4,10 +4,12 @@
 
 **요구사항**
 
-1. `DataProcessor` 클래스를 생성하고, 정수 배열을 저장하는 필드를 선언함
+1. `DataProcessor` 클래스를 생성하고, 정수 배열을
+저장하는 필드를 선언함
 
 2. 다음 메서드들을 구현함:
-   - `ForEach(Action<int> action)`: 배열의 각 요소에 대해 action을 실행함
+   - `ForEach(Action<int> action)`: 배열의 각 요소에 대해 
+	- action을 실행함
    - `Transform(Func<int, int> transformer)`: 배열의 각 요소를 변환하여 새 배열을 반환함
    - `Filter(Func<int, bool> predicate)`: 조건을 만족하는 요소만 포함하는 리스트를 반환함
    - `Reduce(Func<int, int, int> reducer, int initialValue)`: 배열의 모든 요소를 하나의 값으로 줄임
